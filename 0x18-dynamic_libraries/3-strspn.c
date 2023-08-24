@@ -1,4 +1,3 @@
-#include "2-strchr.c"
 #include "main.h"
 
 /**
@@ -7,6 +6,7 @@
  * @accept: the substring
  * Return: the index reached
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int len = 0;
